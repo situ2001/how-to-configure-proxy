@@ -1,7 +1,6 @@
 # How to configure proxy for
 
-The goal of this repo is to free yourself from endless search on Google how to configure proxy for dev tools foo, bar and baz.
-
+The goal of this repo is to free yourself from endless search on Google for guides and docs that tell you how to configure proxy for dev tools like github, npm and so on.
 PRs and issues are welcomed.
 
 ## My environment
