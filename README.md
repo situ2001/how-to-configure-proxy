@@ -4,6 +4,10 @@ The goal of this repo is to free yourself from endless search on Google how to c
 
 PRs and issues are welcomed.
 
+## My environment
+
+App clash opens port 7890 for http and socks proxy. This may be a common proxy env in mainland China.
+
 ## git
 
 Basic form. Just globally configured once.
