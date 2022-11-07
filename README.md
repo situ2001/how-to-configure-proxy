@@ -1,4 +1,4 @@
-# How to configure proxy for
+# How to configure proxy
 
 The goal of this repo is to free yourself from endless search on Google for guides and docs that tell you how to configure proxy for dev tools like github, npm and so on.
 
@@ -17,7 +17,7 @@ git config --global http.proxy http://<proxy.server>:<port> # without username a
 git config --global http.proxy http://<proxy_username:proxy_password>@<proxy.server>:<port> # with username and password
 ```
 
-Used by myself (App Clash that opens port 7890 for http and socks proxy)
+If you are using Clash.
 
 ```shell
 git config --global http.proxy http://127.0.0.1:7890
@@ -29,7 +29,7 @@ git config --global http.proxy http://127.0.0.1:7890
 npm --proxy http://<proxy_username:proxy_password>@<proxy.server>:<port> i <name_of_package>
 ```
 
-For example
+If you are using Clash.
 
 ```shell
 npm --proxy http://127.0.0.1:7890 i -g yarn
